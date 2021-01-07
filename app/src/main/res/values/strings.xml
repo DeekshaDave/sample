@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Castle Rock Associates</string>
+    <string name="no_internet">You are not connected to internet!</string>
+    <string name="pull_down_to_refresh">Pull down to refresh!</string>
+</resources>
