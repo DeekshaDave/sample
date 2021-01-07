@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edt_todos"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:hint="Todos"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:id="@+id/ll_bottom"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:id="@+id/btn_save"
+        android:layout_margin="30dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="save"
+        android:enabled="false"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:visibility="gone"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btn_save"
+        android:id="@+id/btn_Delete"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Delete"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+
+        />
+</LinearLayout>

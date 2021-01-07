@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/black"
+        android:id="@+id/txt_dose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+</LinearLayout>
